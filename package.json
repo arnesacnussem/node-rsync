@@ -1,0 +1,26 @@
+{
+  "name": "node-rsync",
+  "version": "0.0.1",
+  "description": "Rsync wrapper",
+  "keywords": [
+    "rsync",
+    "wrapper"
+  ],
+  "type": "module",
+  "main": "index.ts",
+  "files": [
+    "index.ts",
+    "tsconfig.json"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bytes": "^3.1.4",
+    "@types/node": "^20.6.2",
+    "tsx": "^3.13.0",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "bytes": "^3.1.2",
+    "execa": "^9.3.1"
+  }
+}
